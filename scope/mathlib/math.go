@@ -1,0 +1,12 @@
+package mathlib
+
+import "fmt"
+
+var Money = 1000
+
+func Add(x int, y int) {
+
+	sum := x + y
+	fmt.Println("Sum is :", sum)
+
+}
